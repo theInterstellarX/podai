@@ -18,6 +18,7 @@ def main():
     if selected_podcast:
 
         podcast_info = available_podcast_info[selected_podcast]
+        print(podcast_info)
 
         # Right section - Newsletter content
         st.header("Newsletter Content")
